@@ -146,10 +146,11 @@ DeleteController
 |/com/java/exam/vo|宣告共用傳遞參數|
 
 
-# Junit測試
+# Junit 4 測試
 
 ## 測試說明
 
+> Test runner: JUnit 4
 > com/java/exam/ExamTest.java
 >
 > 全域宣告 static String permission = "1"; //Super User=1 Manager=2 Operator=3
