@@ -150,7 +150,8 @@ DeleteController
 
 ## 測試說明
 
-> Test runner: JUnit 4
+> Test runner:　JUnit 4
+> 
 > com/java/exam/ExamTest.java
 >
 > 全域宣告 static String permission = "1"; //Super User=1 Manager=2 Operator=3
