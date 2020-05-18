@@ -3,9 +3,7 @@
 
 # 概述
 
-這是基於SpringBoot與H2 DataBase構建的簡易專案，登入後即可依據權限進行增、刪、改、查等功能，
-
-在程式運行後，可透過下方DataBase連接開啟H2 Console，API測是可以透過Swagger進行測試。
+        這是基於SpringBoot與H2 DataBase構建的簡易專案，登入後即可依據權限進行增、刪、改、查等功能，在程式運行後，可透過下方DataBase連接開啟H2 Console，API測是可以透過Swagger進行測試。
 
 >DataBase: http://localhost:8080/h2-console
 
@@ -146,12 +144,18 @@ DeleteController
 |/com/java/exam/vo|宣告共用傳遞參數|
 
 
-# Junit 4 測試
+# JUnit測試
+
+## 匯入War包 JUnit異常
+
+> 使用JUnit執行測試異常時，請先確認JUnit選擇版本為4
+> 
+> 匯入War發生RunWith異常時，請手動添加JUnit 4 Library
+
+![](./image/JUnit.jpg.JPG)
 
 ## 測試說明
 
-> Test runner:　JUnit 4
-> 
 > com/java/exam/ExamTest.java
 >
 > 全域宣告 static String permission = "1"; //Super User=1 Manager=2 Operator=3
