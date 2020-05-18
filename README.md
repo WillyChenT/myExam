@@ -152,7 +152,7 @@ DeleteController
 > 
 > 匯入War發生RunWith異常時，請手動添加JUnit 4 Library
 
-![](./image/JUnit.jpg.JPG)
+![](./image/JUnit.jpg)
 
 ## 測試說明
 
