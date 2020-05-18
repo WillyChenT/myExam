@@ -3,7 +3,9 @@
 
 # 概述
 
-        這是基於SpringBoot與H2 DataBase構建的簡易專案，登入後即可依據權限進行增、刪、改、查等功能，在程式運行後，可透過下方DataBase連接開啟H2 Console，API測是可以透過Swagger進行測試。
+        這是基於SpringBoot與H2 DataBase構建的簡易專案，登入後即可依據權限進行增、刪、改、查等功能，
+        
+    在程式運行後，可透過下方DataBase連接開啟H2 Console，API測是可以透過Swagger進行測試。
 
 >DataBase: http://localhost:8080/h2-console
 
